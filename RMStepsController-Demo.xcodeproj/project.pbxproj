@@ -73,7 +73,6 @@
 		CA30C0D7183D36660037EE3A /* RMStepsController-Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RMStepsController-Tests-Prefix.pch"; sourceTree = "<group>"; };
 		CA30C0DD183D37640037EE3A /* RMStepsControllerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMStepsControllerTests.m; sourceTree = "<group>"; };
 		CA7F062F1EBF170A001106A0 /* RMStepsController.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RMStepsController.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA7F06321EBF170A001106A0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CAB31ED818350D4A00D8CF4E /* RMStepsController-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RMStepsController-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		CAB31EDB18350D4A00D8CF4E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CAB31EDD18350D4A00D8CF4E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -223,7 +222,6 @@
 				CAB31F271835123500D8CF4E /* RMStepsBar.m */,
 				CAB31F291835128300D8CF4E /* RMStep.h */,
 				CAB31F2A1835128300D8CF4E /* RMStep.m */,
-				CA7F06321EBF170A001106A0 /* Info.plist */,
 			);
 			path = RMStepsController;
 			sourceTree = "<group>";
@@ -672,6 +670,7 @@
 				CA7F063A1EBF170A001106A0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CAB31ED318350D4900D8CF4E /* Build configuration list for PBXProject "RMStepsController-Demo" */ = {
 			isa = XCConfigurationList;
